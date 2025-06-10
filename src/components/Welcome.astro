@@ -4,11 +4,13 @@
 
 <div
   id="container"
-  class="flex flex-col justify-center items-center h-screen p-4"
+  class="flex flex-col justify-center items-center h-screen p-4 m-0 border-8 border-indigo-500 overflow-auto"
 >
-  <h1 class="text-4xl text-center">Miluckshan Vidyajayan Jalangan</h1>
+  <h1 class="text-lg md:text-4xl text-center bg-white p-4">
+    Miluckshan Vidyajayan Jalangan
+  </h1>
   <div class="md:w-6xl mt-8">
-    <h1 class="md:text-xl text-center">
+    <p class="text-sm md:text-xl font-light text-center bg-white p-4">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -16,28 +18,41 @@
       velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
-    </h1>
-    <div class="grid md:grid-cols-4 gap-4 mt-8">
-      <a
-        href="#"
-        class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400"
-        >Dev</a
-      >
-      <a
-        href="#"
-        class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400"
-        >Academics</a
-      >
-      <a
-        href="#"
-        class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400"
-        >Design</a
-      >
-      <a
-        href="#"
-        class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400"
-        >Health</a
-      >
+    </p>
+  </div>
+  <div class="md:w-6xl mt-8">
+    <div class="bg-white p-4">
+      <div class="grid md:grid-cols-5 gap-2 md:gap-4 md:mt-8">
+        <a
+          href="#"
+          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400"
+          >Engineering<span class="font-thin text-lg"></span></a
+        >
+        <a
+          href="#"
+          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400 cursor-not-allowed"
+          >Academics <span class="font-thin text-lg">*</span></a
+        >
+        <a
+          href="#"
+          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400 cursor-not-allowed"
+          >Design <span class="font-thin text-lg">*</span></a
+        >
+        <a
+          href="#"
+          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400 cursor-not-allowed"
+          >Health <span class="font-thin text-lg">*</span></a
+        >
+        <a
+          href="#"
+          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white hover:bg-indigo-400 cursor-not-allowed"
+          >Personal <span class="font-thin text-lg">*</span></a
+        >
+      </div>
+      <h1 class="text-xs text-center md:mt-8">
+        <span class="font-thin text-xl inline-block align-baseline">*</span
+        >Coming Soon!
+      </h1>
     </div>
   </div>
 </div>
