@@ -4,79 +4,66 @@
 
 <div
   id="container"
-  class="flex flex-col justify-center items-center md:h-screen p-4 m-0 border-8 border-indigo-500 overflow-auto"
+  class="flex flex-col justify-center items-center h-full p-4 m-0 border-4 border-black overflow-auto"
 >
-  <h1 class="w-full md:w-6xl text-4xl text-center font-semibold bg-white p-4">
-    Miluckshan Vidyajayan Jalangan
-  </h1>
-  <div class="w-full md:w-6xl mt-8">
-    <p class="text-sm md:text-xl font-light bg-white p-4">Hey there!</p>
-    <p class="text-sm md:text-xl font-light bg-white p-4">
-      By day, I'm an engineer fueled by curiosity for how things work—usually
-      spending my time building ranging from mini apps and complex systems. By
-      night, I'm a researcher and a lifelong learner. I love diving into new
-      topics and exploring anything interesting that catches my attention.
-    </p>
-    <p class="text-sm md:text-xl font-light bg-white p-4">
-      This site is my digital home, split into two halves:
-      <ul class="text-sm md:text-xl font-light bg-white px-8 list-disc">
-        <li>
-          <span class="font-medium">The Engineering Log:</span> Where I document technical
-          deep dives, lessons learned the hard way, and the occasional "eureka" moment.
-        </li>
-        <li>
-          <span class="font-medium">The Personal Side:</span> Where I share thoughts
-          on Life, Health, and whatever else is currently on my mind.
-        </li>
-      </ul>
-    </p>
-    <p class="text-sm md:text-xl font-light bg-white px-4 py-8">
-      Thanks for stopping by. Feel free to connect!
-    </p>
-  </div>
-  <div class="w-full md:w-6xl mt-8">
-    <div class="bg-white p-4">
-      <div class="flex gap-2 md:gap-4 md:mt-8">
-        <a
-          href="#"
-          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm text-center font-semibold text-white hover:bg-indigo-700"
-        >
-          Engineering Blog <span class="font-thin text-lg">*</span>
-        </a>
-        <a
-          href="#"
-          class="mx-auto block rounded-md bg-indigo-500 px-3 py-2 text-sm text-center font-semibold text-white hover:bg-indigo-700"
-        >
-          Personal Blog <span class="font-thin text-lg">*</span>
-        </a>
-      </div>
-      <!-- <h1 class="text-xs text-center mt-4 md:mt-8">
-        <span class="font-thin text-xl inline-block align-baseline">*</span
-        >Coming Soon!
-      </h1> -->
+  <div class="w-full md:w-6xl flex flex-col md:flex-row-reverse gap-4">
+    <div class="md:basis-1/2">
+      <video
+        src="https://framerusercontent.com/assets/J1VxdUQmLxKOrYToNyhDrVNxfc.mp4"
+        loop=""
+        autoplay=""
+        playsinline=""
+        style="cursor: auto; width: 100%; height: 100%; border-radius: 10px; display: block; object-fit: cover; background-color: rgba(0, 0, 0, 0); object-position: 50% 50%;"
+      ></video>
     </div>
-  </div>
-  <div class="w-full md:w-6xl mt-8">
-    <div class="bg-white p-4">
+    <div class="md:basis-1/2">
+      <p class="text-sm md:text-lg font-light bg-white p-4 pt-8">Hey there!</p>
+      <p class="text-sm md:text-lg font-light bg-white p-4">
+        By day, I'm an engineer fueled by curiosity for how things work—usually
+        spending my time building ranging from mini apps and complex systems. By
+        night, I'm a researcher and a lifelong learner. I love diving into new
+        topics and exploring anything interesting that catches my attention.
+      </p>
+      <p class="text-sm md:text-lg font-light bg-white p-4">
+        This site is my digital home, split into two halves:
+        <ul class="text-sm md:text-lg font-light bg-white px-8 list-disc">
+          <li>
+            <a href="/engineering-log" class="font-medium"
+              >The Engineering Log:</a
+            > Where I document technical deep dives, lessons learned the hard way,
+            and the occasional "eureka" moment.
+          </li>
+          <li>
+            <a href="/personal" class="font-medium">The Personal Side:</a> Where I
+            share thoughts on Life, Health, and whatever else is currently on my mind.
+          </li>
+        </ul>
+      </p>
+      <p class="text-sm md:text-lg font-light bg-white px-4 py-8">
+        Thanks for stopping by. Feel free to connect!
+      </p>
       <div
-        class="grid grid-cols-3 gap-2 md:gap-4 justify-items-center w-1/3 md:w-1/10 m-auto"
+        class="flex justify-center gap-2 md:gap-4 justify-items-center bg-white pb-8 m-auto"
       >
         <a href="https://twitter.com/miluckshan_j">
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2ElEQVR4nO2ZW4hNURjHf+Moxj2XyaUkREwywhNlKLdCFCfUFG/uSjEKD+LJLTXnhShvQ5S8MIkXTS4vPJCoCUnCSDMalzOXs7TqU7vdnr332Xutszftf32dztlnrW/91u1b69uQKVOmTBXSNGAFsBVYA9QBOf4RDQeOAa8B5WFfgAsC6afxwCKvB3Owrw3A534AlMt+Ayc9RmgKUAB+AfPcDiYAP4DNFiEOAaWQEMphN4HFwGGgFeiT3697OTkgD4vAcgsQDREAlI99BGq8HN12DelGgxCTgZ8GIdqBWql7GLDS6eyd6896+PYZArliEOIZkAd2AM1AF7DK6ayjn4JXgZExIEbICJsC6XN9P+h2+Mmn8BtgWUSQvOG1oRx2ysvhoxAFb8jWV46OWwAoAUf6c3gmZCV6mlxyLLYgXTQM0QOs93O4MEKv3AW2A6N96m0yDPI9TO/dj1h5t5Q9AawFJgFVjiBoEqQjDMhsg/t9Ubb0t4ZBPvgB/O09rS0eW1ya7KUfyEDgObAHGCcwJiOxSbsTNK3aHX9+HxBXkrRCEEhLChqpQtiuIJD9KWikCmH6BumrUUBnChqqfKwz7DW4MQWNVT52jZDKxQiKlbA8ZSYGWlPQaOVxNNGXqLI0CDifssDYRAzVyu3uW8IQJWBmFID50gP6LnFWomlvgiDNUUeiGviagumk5GQ9nRjanQIIBZwjpnIpOLa0AUMxIJ09eZgQRC+wBIPS6+VyxFRnHGvEknTu9ZZc/itxFKnCsnTCbbXklGwEzBYJyNY1QI78XRYg7slUtg6gMySPLU0nfYKwOhITgZ3AK0sAPaYWdh0wF5gqn/WSdCtIxsLmon4BLMCQaqTR3ZYb7U6yHQUGY0Ez5HBWtAxwGhhDBTRWXvA8NRihHwDbgCEkpFnAXnnp2BYyuusEwRN5vbwpIMGdmKrlglMvW7Fu6DpgqdxhdPI6Uyb+I/0BtL6/+Ljwfj8AAAAASUVORK5CYII="
             alt="twitter"
+            class="w-1/2"
           />
         </a>
         <a href="https://linkedin.com/in/miluckshan-j">
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABZElEQVR4nO2ZvUoDQRSFP1Hs/AFtBQt9A99BwV20FIV0lr6CjQTyID6DnSbqg9gp/iDopkpzZWEaw+zOzFrsHbkHThNuZs+Xu3dmk4DJZOqqI2ACTAHp2VNgDJSpECMF4aXBw5ROiHIXMSATBUEl4LsYkEpBUAn4OwZEMnFQfQcUA5lT2yfyApwAG85nwFuOHdlXtF0H1fbmVU/9Wo4gpae+yBHkHRgAm871jLzmCCKKHFTfAcVA5tSlnSk1j+4s2gKWgRVgD7gEPnIAqQ/Og8C114Eb7SA7MRcHloAHzSAp2gZmOYAsRtRcawa5AJ5d3RNw3lJ7qhXkOPH7965WkPuGNevfCOjwMNobyGfDmvXrPi1oBfnrumIgWEe8slsLmxFs1xL/eNiMiJ0jtG+TmhzUvwGpFISUgL9iQMYKgkrAtzEgpYKgEvAhkRoqCCsNviJRhfv3VMPMVO52iu6EyWTil34AFdRDhxtrT8cAAAAASUVORK5CYII="
             alt="linkedin"
+            class="w-1/2"
           />
         </a>
         <a href="mailto:miluckshan.official@gmail.com">
           <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACJklEQVR4nO3YTahNURQH8N/zma/kq4SIIhkoMpGSlDKiMDBAmZgayszA4E0NMXsiyQwlBlKKkpSUrzARwivk2/O2jvat43reO/e+c9493fa//vcO9t5r/ddeZ62z7iUhISEhoUMIXUJdE8hAtwSyFf01ENIuB3G0USeLcbsGokKL/IgdjSDWx++pOFMDcaEg72F51D4n+/iJQ7kudgA/aiA0DMPswqdFvWvwLN+1+jAlLm7E6xoIDk1svvS9+BzX/tp4B0vipkW4VQPxIfINNkdtk3Gsaf2fA2+bDpysQRA3sCBqWoibQ+wplMKsbr53KIjjmJR75F/9Z9+wRk7HbpZhA16OYQBfsT/67sHBEZrQiAbvYmk0OA/XxiCIJ1gdfU7HuQJnChl+hy3R8AT0VhjERcyKvlbgfsFzhR0MxLrJ0pxhD76UPGr0Yly0vw3vWzjfssOzTS+j5yUE0R9nvgzjcSQG1oqNthw/wMo/bpmLq6MIIqvBZTlbV9q007aAD9ieu8V26uZUriuuHWV2S32ud+NTgXPfYjttYF8J9SaUwAuYGUVlbfPpMHtf5CbubHI4UZIGoSQ+wqoocDYuD7HnOuZXNMsJFf3Q6Ynt+ldu1JgY1zZVMF0LJXMwts9G3ezErlxwhyv6n0CoiJdyb+gMM3C+Qn9ChXyMdZEPK/YldAl1WkAKRMqIjj8+IdWIzt90SBnR+dsNKSO6ICMJCQkJCcYavwFpBILbyX7yRgAAAABJRU5ErkJggg=="
-            alt="new-post"
+            alt="email"
+            class="w-1/2"
           />
         </a>
       </div>
