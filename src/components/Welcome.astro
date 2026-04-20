@@ -1,20 +1,19 @@
 ---
-
+import { Image } from "astro:assets";
+import profilePicture from "../assets/profile-picture-small.png";
 ---
 
 <div
   id="container"
-  class="flex flex-col justify-center items-center h-full p-4 m-0 border-4 border-black overflow-auto"
+  class="flex flex-col justify-center items-center md:h-full p-4 m-0 overflow-auto"
 >
   <div class="w-full md:w-6xl flex flex-col md:flex-row-reverse gap-4">
     <div class="md:basis-1/2">
-      <video
-        src="https://framerusercontent.com/assets/J1VxdUQmLxKOrYToNyhDrVNxfc.mp4"
-        loop=""
-        autoplay=""
-        playsinline=""
-        style="cursor: auto; width: 100%; height: 100%; border-radius: 10px; display: block; object-fit: cover; background-color: rgba(0, 0, 0, 0); object-position: 50% 50%;"
-      ></video>
+      <Image
+        src={profilePicture}
+        alt="profile picture of miluckshan"
+        class="w-full h-auto rounded-lg object-cover"
+      />
     </div>
     <div class="md:basis-1/2">
       <p class="text-sm md:text-lg font-light bg-white p-4 pt-8">Hey there!</p>
