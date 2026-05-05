@@ -7,7 +7,9 @@ import profilePicture from "../assets/profile-picture-small.png";
   id="container"
   class="flex flex-col justify-center items-center md:h-full p-4 m-0 overflow-auto"
 >
-  <div class="w-full md:w-6xl flex flex-col md:flex-row-reverse gap-4">
+  <div
+    class="w-full md:w-6xl flex items-center flex-col md:flex-row-reverse gap-4"
+  >
     <div class="md:basis-1/2">
       <Image
         src={profilePicture}
@@ -16,7 +18,12 @@ import profilePicture from "../assets/profile-picture-small.png";
       />
     </div>
     <div class="md:basis-1/2">
-      <p class="text-sm md:text-lg font-light bg-white p-4 pt-8">Hey there!</p>
+      <h1
+        class="text-5xl md:text-6xl font-bold tracking-tighter bg-white p-4 pt-8"
+      >
+        Miluckshan Vidyajayan Jalangan
+      </h1>
+      <p class="text-sm md:text-lg font-light bg-white p-4">Hey there!</p>
       <p class="text-sm md:text-lg font-light bg-white p-4">
         By day, I'm an engineer fueled by curiosity for how things work—usually
         spending my time building ranging from mini apps and complex systems. By
@@ -27,14 +34,18 @@ import profilePicture from "../assets/profile-picture-small.png";
         This site is my digital home, split into two halves:
         <ul class="text-sm md:text-lg font-light bg-white px-8 list-disc">
           <li>
-            <a href="https://engineering.miluckshan.com" class="font-medium"
-              >The Engineering Log:</a
-            > Where I document technical deep dives, lessons learned the hard way,
-            and the occasional "eureka" moment.
+            <a href="https://engineering.miluckshan.com" class="font-medium">
+              The Engineering Log:
+            </a>
+            Where I document technical deep dives, lessons learned the hard way, and
+            the occasional "eureka" moment.
           </li>
           <li>
-            <a href="https://blog.miluckshan.com" class="font-medium">The Personal Side:</a> Where I
-            share thoughts on Life, Health, and whatever else is currently on my mind.
+            <a href="https://blog.miluckshan.com" class="font-medium">
+              The Personal Side:
+            </a>
+            Where I share thoughts on Life, Health, and whatever else is currently
+            on my mind.
           </li>
         </ul>
       </p>
